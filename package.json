@@ -1,0 +1,23 @@
+{
+  "name": "energygame",
+  "version": "1.0.0",
+  "description": "A project to create a game of some sorts with PIXI.js paired with typescript. WiP.",
+  "main": "build/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fustran/energygame.git"
+  },
+  "author": "Josh Fangrad",
+  "license": "MIT",
+  "dependencies": {
+    "pixi.js": "^4.5.3"
+  },
+  "devDependencies": {
+    "@types/pixi.js": "^4.5.7"
+  }
+}
