@@ -1,8 +1,9 @@
 {
 	"compilerOptions": {
 		"module": "commonjs",
+		"allowJs": true,
 		"target": "ES5",
 		"outDir": "build",
-		"rootDir": "lib"
+		"rootDir": "src"
 	}
 }

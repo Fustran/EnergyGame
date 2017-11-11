@@ -5,8 +5,8 @@
   "main": "build/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "dev": "tsc -w"
+    "build": "./node_modules/.bin/webpack",
+    "dev": "./node_modules/.bin/webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -15,9 +15,12 @@
   "author": "Josh Fangrad",
   "license": "MIT",
   "dependencies": {
-    "pixi.js": "^4.5.3"
+    "pixi.js": "^4.6.0"
   },
   "devDependencies": {
-    "@types/pixi.js": "^4.5.7"
+    "pixi-typescript": "github:pixijs/pixi-typescript",
+    "ts-loader": "^3.1.1",
+    "typescript": "^2.6.1",
+    "webpack": "^3.8.1"
   }
 }
